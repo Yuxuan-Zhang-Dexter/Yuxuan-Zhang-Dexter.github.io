@@ -5,7 +5,7 @@ categories: [Machine Learning, Image Classification]
 tags: [Project]     # TAG names should always be lowercase
 ---
 # Learning Plan
-I aim to train models in Pytorch Connectomics software application using the brain images and build a reliable pipeline for future use in electronical microscopy images. Firstly, to approach the Pytorch Connectomics, I start to read the published paper: PyTorch Connectomics: A Scalable and Flexible Segmentation Framework for EM Connectomics (https://arxiv.org/abs/2112.05754). 
+I aim to train models in Pytorch Connectomics software application using the brain images and build a reliable pipeline for future use in electronical microscopy images. Firstly, to approach the Pytorch Connectomics, I start to read the published paper: PyTorch Connectomics: A Scalable and Flexible Segmentation Framework for EM Connectomics (https://arxiv.org/abs/2112.05754). In addition, I also browse through the official website (https://connectomics.readthedocs.io/en/latest/). After understanding the most terminologies and basic concepts, I continue to build a workflow as a blueprint for my future exploration.
 
 ## Paper Summary
 PyTorch Connectomics (PyTC) is an opensource deep-learning framework for the semantic and instance segmentation of volumetric microscopy images, built upon PyTorch. It includes the semantic and instance segementation in Neurons, Synapses, Mitochondria, and Nuclei, and Artifacts. 
@@ -31,3 +31,6 @@ is 257 × 257 × 17 in (x, y, z) as CREMI is an anisotropic dataset with higher 
 into memory. Different from the binary semantic segmentation models that have only one output channel, we build a U3D-BC architecture [51] that predicts the foreground mask and instance contour map at the same time. The instance contour map is informative in separating closely touching instances. We train the models for 150K iterations from scratch with a batch size of 8 and an input size of 257 × 257 × 17 as the data is also anisotropic. We train two models for two volumes separately in this comparison. The watershed segmentation algorithm is applied after merging overlapping chunks back to a single volume
 
 **Neuronal Nuclei Instance Segmentation**：tricky part, a U3D-BCD model 
+
+## Workflow
+Data Loading -> Data Augmentation (supervised learning / unsupervised learning) -> training (model choices) -> Infferences 
