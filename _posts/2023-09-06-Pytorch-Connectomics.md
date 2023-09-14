@@ -33,4 +33,4 @@ into memory. Different from the binary semantic segmentation models that have on
 **Neuronal Nuclei Instance Segmentation**：tricky part, a U3D-BCD model 
 
 ## Workflow
-Data Loading -> Data Augmentation (supervised learning / unsupervised learning) -> training (model choices) -> Infferences 
+Data Loading -> Data Augmentation (supervised learning / unsupervised learning, ? reject sample) -> training (model choices) -> Infferences 
