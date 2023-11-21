@@ -16,3 +16,5 @@ Topics:
  - learn pyg programming sklls and implement gnn neural networks
 5. create blog about CS229 and deep learning coursework
 6. if possible, try to create blog to summarize the coursework that I have already taken like CSE 250A.
+7. small idea or small research direction
+ - memory capacity limit in the gpt long context inputs.
