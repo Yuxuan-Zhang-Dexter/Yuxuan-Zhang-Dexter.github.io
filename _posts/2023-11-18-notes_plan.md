@@ -47,6 +47,7 @@ tags: [Note]     # TAG names should always be lowercase
 
 ##### Key Considerations
 - **CI/CD Pipelines**: Automate building, tagging, and pushing using GitLab CI/CD.
+ - trying to create .gitlab-ci.yml to automatically go through first three steps in the gitlab pipeline.
 - **Security**: Secure credentials using Kubernetes secrets.
 - **Version Tagging**: Use specific version tags for Docker images.
 - **Access Control**: Manage access to the GitLab registry using GitLab's permissions.
