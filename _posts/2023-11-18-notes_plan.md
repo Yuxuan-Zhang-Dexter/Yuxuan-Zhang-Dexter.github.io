@@ -69,6 +69,10 @@ tags: [Note] # TAG names should always be lowercase
 - **Version Tagging**: Use specific version tags for Docker images.
 - **Access Control**: Manage access to the GitLab registry using GitLab's permissions. [GitLab access control](https://ucsd-prp.gitlab.io/userdocs/storage/ceph-s3/).
 
+### Backup Plan
+- create a working docker image and deploy alpa in the local container. Updating the docker image and using this working docker image to deploy the alpa in the kubernetes
+- check servers mentioned by the professor Jishen Zhao
+
 ## 3. Blog on Transformer and Batch Effects
 
 ## 4. Blog on Graph Neural Networks (GNN)
@@ -78,7 +82,9 @@ tags: [Note] # TAG names should always be lowercase
 
 - **PyG Skills**:
   - Learn PyG programming skills. [Blog](https://mlabonne.github.io/blog/posts/2022_02_20_Graph_Convolution_Network.html), [GitHub](https://github.com/mlabonne/graph-neural-network-course).
-  - Implement GNN neural networks. Have implemented an introductory level GCN and try GNN attention network next.
+  - Implement GNN neural networks. Have implemented an introductory level GCN
+  - try to implement GAN
+  - PYG 算子分类 和 torch profiler. [什么是算子](https://zhuanlan.zhihu.com/p/533725319)
 
 ## 5. Blog on CS229 and Deep Learning Coursework
 
