@@ -31,3 +31,12 @@ Honestly, I'm an anime fan who loves the vibrant life it presents, unlike the bl
 But what I really want is to be free to do what I want. To achieve this, I need to follow the rules of the world. In the US, communication is key—not just speaking, but building connections. We live in society, and communication is how we fit in.
 
 To build good communication, I need to start by maintaining a good personal image and being open to sharing my thoughts with others. I don't aim to be incredibly wealthy or famous. I just want a free and self-satisfying life.
+
+- **Keep a good personal image** 
+  1. preparing to use Kate Somerville EradiKate Acne Treatment for my face
+  2. book an appointment for my face
+  3. organize hair style(shave head?)
+
+- **Talking SKills**
+  1. try to actively share my thoughts with various people
+
