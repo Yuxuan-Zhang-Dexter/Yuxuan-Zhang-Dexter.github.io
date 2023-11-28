@@ -19,7 +19,7 @@ tags: [Note] # TAG names should always be lowercase
   - Debug code by code.
 
 - **Experiment with New Checkpoints**:
-  - Test with the new 10000 checkpoint.
+  - Test with the new 10000 checkpoint. Check tensorboard to visualize how the loss gradient descent.
 
 ## 2. Blog on Deployment of LLM Alpha Opt175B in Docker
 
@@ -98,4 +98,5 @@ tags: [Note] # TAG names should always be lowercase
 
 ## 8. Open Source Projects Plans
   - practice programming skills in the engineering aspects 
+
 
