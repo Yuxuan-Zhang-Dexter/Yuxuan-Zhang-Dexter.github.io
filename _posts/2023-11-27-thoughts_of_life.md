@@ -40,3 +40,6 @@ To build good communication, I need to start by maintaining a good personal imag
 - **Talking SKills**
   1. try to actively share my thoughts with various people
 
+  **Fittness**
+  1. keep a good body shape and health status
+

@@ -96,3 +96,6 @@ tags: [Note] # TAG names should always be lowercase
   - Explore the memory capacity limit in GPT for long context inputs.
   - Discuss caching files and images in the local browser.
 
+## 8. Open Source Projects Plans
+  - practice programming skills in the engineering aspects 
+
