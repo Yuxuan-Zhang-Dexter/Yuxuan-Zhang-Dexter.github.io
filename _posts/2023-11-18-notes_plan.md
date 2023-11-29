@@ -30,7 +30,11 @@ tags: [Note] # TAG names should always be lowercase
   - Build the Docker image in GitLab.
   - Utilize GitLab as a container registry for Kubernetes deployment.
   - [Alpha project deployment](https://alpa.ai/tutorials/opt_serving.html).
-
+  - how to create a new docker image from the running [docer container](https://www.dataset.com/blog/create-docker-image/).
+  - share data between host machine and container - [docker mount volume](https://www.freecodecamp.org/news/docker-mount-volume-guide-how-to-mount-a-local-directory/)
+  - **Error Message**
+   - cupy11x
+   - Jaxlib== only 0.4 not 0.3
 ### Kubernetes Deployment with GitLab Registry
 
 #### Step 1: Build the Docker Image
