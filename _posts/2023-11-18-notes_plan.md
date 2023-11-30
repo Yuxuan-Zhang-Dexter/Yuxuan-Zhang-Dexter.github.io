@@ -35,6 +35,11 @@ tags: [Note] # TAG names should always be lowercase
   - **Error Message**
    - cupy11x - supporting cuda version
    - Jaxlib== only 0.4 not 0.3  - install python 3.9 - find a better docker image cudnn >= 8.05 and cuda >= 11.1 python 3.7 - 3.9
+    - firstly use pytorch/pytorch:1.12.1-cuda11.3-cudnn8-devel docker image
+    - check all cuda and cudnn version
+    - install by hands about all necessary dependencies - stuck in GPU environment and try to create docker container in the labtop supporting nvidia gpu.
+    - already set up the requirements - need to run weights of pretrained models in the alpa
+    - update docker image
 ### Kubernetes Deployment with GitLab Registry
 
 #### Step 1: Build the Docker Image
