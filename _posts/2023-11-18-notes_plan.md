@@ -19,7 +19,8 @@ tags: [Note] # TAG names should always be lowercase
   - Debug code by code.
 
 - **Experiment with New Checkpoints**:
-  - Test with the new 10000 checkpoint. Check tensorboard to visualize how the loss gradient descent.
+  - rebuild docker image and container if I can't figure out why it doesn't work.
+  - Check tensorboard to visualize how the loss gradient descent.
 
 ## 2. Blog on Deployment of LLM Alpha Opt175B in Docker
 
@@ -39,7 +40,9 @@ tags: [Note] # TAG names should always be lowercase
     - check all cuda and cudnn version
     - install by hands about all necessary dependencies - stuck in GPU environment and try to create docker container in the labtop supporting nvidia gpu.
     - already set up the requirements - need to run weights of pretrained models in the alpa
+    - try to get opt 175b weights file ad convert it to the alpa format
     - update docker image
+    - work with kubernetes to deploy the alpa installation and pretrained models
 ### Kubernetes Deployment with GitLab Registry
 
 #### Step 1: Build the Docker Image
