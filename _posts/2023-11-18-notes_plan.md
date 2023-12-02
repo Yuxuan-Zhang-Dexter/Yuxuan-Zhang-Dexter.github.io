@@ -20,7 +20,22 @@ tags: [Note] # TAG names should always be lowercase
 
 - **Experiment with New Checkpoints**:
   - rebuild docker image and container if I can't figure out why it doesn't work.
+  - modify dockerfile to rebuild a better docker image - dpkg problematic package only
+  - give up debugging stupid nvidia
+  - continue to reuse docker container and check if it works by scping the connectomics
   - Check tensorboard to visualize how the loss gradient descent.
+
+- **look up a potential new collaborator**
+  - check marco's email
+
+- **check new survey about electron microscopy images**
+  - start with a new survey: https://doi.org/10.1016/j.media.2023.102920
+  - only pytorch connectomics: installation - https://github.com/zudi-lin/pytorch_connectomics/blob/master/docker/README.md
+  - debug installation environment error message:
+   - ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+   - ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file or directory
+   - NCCL version uninstall - not compatiable with cuda 11.3
+
 
 ## 2. Blog on Deployment of LLM Alpha Opt175B in Docker
 
