@@ -100,6 +100,12 @@ tags: [Note] # TAG names should always be lowercase
 ### Backup Plan
 - create a working docker image and deploy alpa in the local container. Updating the docker image and using this working docker image to deploy the alpa in the kubernetes
 - check servers mentioned by the professor Jishen Zhao - wait for responses
+ - These nodes are reserved for the prism center (understand you are already communicating regarding this). You can add a toleration in your spec that will allow the usage
+ '' tolerations:
+  - key: "prism-center"
+    operator: "Exists"
+    effect: "NoSchedule"
+''
 
 ## 3. Blog on Transformer and Batch Effects
 
