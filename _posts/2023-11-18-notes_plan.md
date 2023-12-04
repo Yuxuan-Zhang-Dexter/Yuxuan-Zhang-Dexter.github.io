@@ -99,7 +99,7 @@ tags: [Note] # TAG names should always be lowercase
 
 ### Backup Plan
 - create a working docker image and deploy alpa in the local container. Updating the docker image and using this working docker image to deploy the alpa in the kubernetes
-- check servers mentioned by the professor Jishen Zhao
+- check servers mentioned by the professor Jishen Zhao - wait for responses
 
 ## 3. Blog on Transformer and Batch Effects
 
@@ -113,6 +113,7 @@ tags: [Note] # TAG names should always be lowercase
   - Implement GNN neural networks. Have implemented an introductory level GCN
   - try to implement GAN
   - PYG 算子分类 [什么是算子](https://zhuanlan.zhihu.com/p/533725319)
+    - operator classification: [PYG cheatsheet](https://pytorch-geometric.readthedocs.io/en/latest/cheatsheet/gnn_cheatsheet.html)
   - [torch profiler](https://pytorch.org/docs/stable/profiler.html)
 
 ## 5. Blog on CS229 and Deep Learning Coursework
