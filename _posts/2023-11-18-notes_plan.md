@@ -112,7 +112,8 @@ tags: [Note] # TAG names should always be lowercase
   - Learn PyG programming skills. [Blog](https://mlabonne.github.io/blog/posts/2022_02_20_Graph_Convolution_Network.html), [GitHub](https://github.com/mlabonne/graph-neural-network-course).
   - Implement GNN neural networks. Have implemented an introductory level GCN
   - try to implement GAN
-  - PYG 算子分类 和 torch profiler. [什么是算子](https://zhuanlan.zhihu.com/p/533725319)
+  - PYG 算子分类 [什么是算子](https://zhuanlan.zhihu.com/p/533725319)
+  - [torch profiler](https://pytorch.org/docs/stable/profiler.html)
 
 ## 5. Blog on CS229 and Deep Learning Coursework
 
