@@ -136,3 +136,9 @@ tags: [Note] # TAG names should always be lowercase
   - practice programming skills in the engineering aspects 
 
 
+## 9. 2023 Winter Break Plan
+1. organize all note plan here and think of the future meaningful research directions
+2. keep track of research projects in llm, gnn, and image segmentation
+3. apply for relevant jobs and summer research internship
+
+
