@@ -141,4 +141,11 @@ tags: [Note] # TAG names should always be lowercase
 2. keep track of research projects in llm, gnn, and image segmentation
 3. apply for relevant jobs and summer research internship
 
+## 10. LLM system research project - weekly notes:
+### w11
+1. read relevant articles: one paper and one medium post
+2. ask the professor about the related background knowledge
+3. keep deploying alpa serving systems. 
+
+
 
