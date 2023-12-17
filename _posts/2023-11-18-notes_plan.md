@@ -147,5 +147,3 @@ tags: [Note] # TAG names should always be lowercase
 2. ask the professor about the related background knowledge
 3. keep deploying alpa serving systems. 
 
-
-
