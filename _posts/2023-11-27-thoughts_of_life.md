@@ -45,13 +45,19 @@ To build good communication, I need to start by maintaining a good personal imag
 
 
   ### Winter Break Daily Plan
-  #### 12/16/2023
+  #### 12/17/2023
   1. wake up and exercise and take a shower.
   2. try to deploy llama 2-7B and catch up with the current process
   3. one course from CS 229 and CS 230 and organize notes
+   - cs229: https://github.com/maxim5/cs229-2018-autumn
+   - cs230: https://github.com/maxim5/cs230-2018-autumn
   4. seek job and research opportunities
-  5. Zelda
+  5. Zelda: 
+   - horse
+   - house
+   - motocycle
+   - shrine missions
   6. face treatment
-  
+  7. update next day
   
 
