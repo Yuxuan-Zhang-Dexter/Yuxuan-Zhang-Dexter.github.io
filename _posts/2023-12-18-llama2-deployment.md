@@ -14,6 +14,7 @@ Follow the instructions, I have deployed a local ones.
 
 1. create a dockerfile to generate the image.
 
-
+2. use CI/CD to build docker image from docker file(research about CI/CD pipeline in the gitlab)
+[gitlab, docker, and kubernete instructions](https://ucsd-prp.gitlab.io/userdocs/development/gitlab/)
 
 

@@ -53,10 +53,9 @@ To build good communication, I need to start by maintaining a good personal imag
    - cs230: https://github.com/maxim5/cs230-2018-autumn
   4. seek job and research opportunities
   5. Zelda: 
-   - horse
-   - house
-   - motocycle
-   - shrine missions
+   - shrine test
+   - ex items
+   - next divine beast
   6. face treatment
   7. update next day
   
