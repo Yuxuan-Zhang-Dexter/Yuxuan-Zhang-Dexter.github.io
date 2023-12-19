@@ -2,7 +2,7 @@
 title: Some Notes for the Future Update
 date: 2023-11-18 17:00:00 -0700
 categories: [Machine Learning, Techniques]
-tags: [Note] # TAG names should always be lowercase
+tags: [note] # TAG names should always be lowercase
 ---
 
 # Blog Topics Organization -- Update Plan
