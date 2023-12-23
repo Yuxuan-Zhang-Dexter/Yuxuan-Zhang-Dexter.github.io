@@ -21,6 +21,10 @@ tags: [note] # TAG names should always be lowercase
   ## the compiler of geometric deep learning about sparsity?
   ### main focus, probably
   - ![SparseTir](https://arxiv.org/abs/2207.04606)
+  - learn ![triton](https://triton-lang.org/main/index.html)
+
+  task details:
+  organize the workload of sparsetir: sddmm; spmm; gather+gemm+scatter
 
   ### the background of the geometric deep learning
   - ![graph networks](https://arxiv.org/pdf/2310.11829.pdf)
