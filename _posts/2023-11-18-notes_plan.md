@@ -109,19 +109,6 @@ tags: [note] # TAG names should always be lowercase
 
 ## 3. Blog on Transformer and Batch Effects
 
-## 4. Blog on Graph Neural Networks (GNN)
-
-- **Literature Review**:
-  - Read papers in the model section in Notion.
-
-- **PyG Skills**:
-  - Learn PyG programming skills. [Blog](https://mlabonne.github.io/blog/posts/2022_02_20_Graph_Convolution_Network.html), [GitHub](https://github.com/mlabonne/graph-neural-network-course).
-  - Implement GNN neural networks. Have implemented an introductory level GCN
-  - try to implement GAN
-  - PYG 算子分类 [什么是算子](https://zhuanlan.zhihu.com/p/533725319)
-    - operator classification: [PYG cheatsheet](https://pytorch-geometric.readthedocs.io/en/latest/cheatsheet/gnn_cheatsheet.html)
-  - [torch profiler](https://pytorch.org/docs/stable/profiler.html)
-
 ## 5. Blog on CS229 and Deep Learning Coursework
 
 ## 6. Blog on Summarizing Past Coursework (e.g., CSE 250A)
