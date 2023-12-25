@@ -61,7 +61,7 @@ To build good communication, I need to start by maintaining a good personal imag
 
   #### 12/17/2023
   1. 7:30 狗子撒尿，兔子喂食，富贵竹浇水，确认狗粮和水
-  2. 下午遛狗和兔子喂食
+  2. 上午遛狗和兔子喂食
   3. 周天晚上倒垃圾
   4. 晚上11点狗子撒尿，检查煤气灶和锁门
   learning tasks:

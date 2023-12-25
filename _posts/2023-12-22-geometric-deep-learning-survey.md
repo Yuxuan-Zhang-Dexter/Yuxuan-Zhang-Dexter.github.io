@@ -30,4 +30,15 @@ tags: [note] # TAG names should always be lowercase
   - ![graph networks](https://arxiv.org/pdf/2310.11829.pdf)
   - ![general intro to geometric deep learning](https://geometricdeeplearning.com/blogs/)
 
+  #### SparseTir Workload
+  - understand the structure of the ![machine learning compilers](https://huyenchip.com/2021/09/07/a-friendly-introduction-to-machine-learning-compilers-and-optimizers.html)
+  - workloads of sparsetir:
+    1. sddmm: sampled dense-dense matrix multiplication sddmm for caculating attention score $B_{i,j} = \sum_{k=1}^{d} A_{i,j} X_{i,k} Y_{k,j}$
+    2. spmm: sparse-dense matrix multiplication, ![visualExplanation]https://www.researchgate.net/figure/Conceptual-view-of-SpMM-and-SDDMM-sparse-matrix-the-values-may-change-but-the-sparsity_fig3_330891126) ![mathematic explaination](https://www.google.com/imgres?imgurl=https%3A%2F%2Fars.els-cdn.com%2Fcontent%2Fimage%2F3-s2.0-B9780124201583000095-f09-14-9780124201583.jpg&tbnid=Ud5EYzvA8wLcfM&vet=10CAIQxiAoAGoXChMI-PDtx4qpgwMVAAAAAB0AAAAAEA8..i&imgrefurl=https%3A%2F%2Fwww.sciencedirect.com%2Ftopics%2Fcomputer-science%2Fsparse-matrix-vector-multiplication&docid=PHAZknEooJ31VM&w=433&h=390&itg=1&q=why%20we%20use%20sparse-dense%20matrix%20multiplication&ved=0CAIQxiAoAGoXChMI-PDtx4qpgwMVAAAAAB0AAAAAEA8#imgrc=diPN3FglDALu2M&imgdii=uoQnP7OopCqLOM). spmm works for the message passing
+    mathematical formulas: $Y_{i,k} = \sum_{j=1}^{n} A_{i,j} X_{j,k}$
+    3. gather + gemm + scatter: Relational Gather-Matmul-Scatter(RGMS). This method is to deal with 3 dimensions, The one more dimension comes from the number of relations. In the graph, there are multiple relation among each node. 
+     - Relational Graph Convolution Network (RGCN): the essence of RGCN is 3D message passing mechanism.
+
+  #### Triton code
+
 
