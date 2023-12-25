@@ -134,3 +134,10 @@ tags: [note] # TAG names should always be lowercase
 2. ask the professor about the related background knowledge
 3. keep deploying alpa serving systems. 
 
+## 11. background research learning(if you have no idea to learn about, you should learn some basic stuff for any potential related work)
+1. transformer deep understanding: ![transformaer](https://jalammar.github.io/illustrated-transformer/)
+2. gnn learning: [ML blog](https://mlabonne.github.io/blog/) - GNN Machine learning
+3. compiler ![intro](https://huyenchip.com/2021/09/07/a-friendly-introduction-to-machine-learning-compilers-and-optimizers.html)
+4. cse230 
+5. cse 229 
+

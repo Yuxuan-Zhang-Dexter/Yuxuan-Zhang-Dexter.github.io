@@ -21,6 +21,7 @@ tags: [note] # TAG names should always be lowercase
   ## the compiler of geometric deep learning about sparsity?
   ### main focus, probably
   - ![SparseTir](https://arxiv.org/abs/2207.04606)
+   - ![video explanation](https://www.google.com/search?q=sparsetir+video&rlz=1C1ONGR_enUS1055US1055&oq=sparsetir+vi&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:49517380,vid:dGeUOPh37gU,st:0)
   - learn ![triton](https://triton-lang.org/main/index.html)
 
   task details:
