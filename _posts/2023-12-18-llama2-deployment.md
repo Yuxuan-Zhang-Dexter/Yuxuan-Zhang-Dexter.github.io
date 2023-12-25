@@ -5,7 +5,7 @@ categories: [Machine Learning, Techniques]
 tags: [llm] # TAG names should always be lowercase
 ---
 ## install llama2 locally
-![installation instructions](https://github.com/facebookresearch/llama?fbclid=IwAR1YR2P7h62OBvtUIHcsf4OPzgu_QEeK3QQnuARrJhwYG5TTkRfKRf6COI0)
+[installation instructions](https://github.com/facebookresearch/llama?fbclid=IwAR1YR2P7h62OBvtUIHcsf4OPzgu_QEeK3QQnuARrJhwYG5TTkRfKRf6COI0)
 
 1. request weights download from the meta website.
 Follow the instructions, I have deployed a local ones.
