@@ -43,6 +43,7 @@ tags: [note] # TAG names should always be lowercase
   
   #### SparseTir Workload Redo
   baseline classifications: 
+  
   cuSPARSE - NVIDIA's offiical library for sparse tensor algebra
 
   dgSPARSE - SOTA sparse kernel implemenetation for GNNs; GE-SpMM, DA-SpMM, and PRedS
@@ -54,30 +55,50 @@ tags: [note] # TAG names should always be lowercase
   [all relavant gnns](https://theaisummer.com/gnn-architectures/)
 
   ##### SPMM
+  ###### GSPMM
   spmm: sparse-dense matrix multiplication, the most generic sparse operator in deep learning. 
-  GE-SpMM, DA-SpMM in dgSPARSE are STOA kernel implementations.
+  GE-SpMM and DA-SpMM in dgSPARSE are state-of-the-art (STOA) kernel implementations.
   $$Y_{i,k} = \sum_{j=1}^{n} A_{i,j} X_{j,k}$$
 
   ![spmm](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/spmm.png)
-  k = n here. In graph, x multiplies each column in the feature matrix to get three n or k dimension vector and finally sum them together based on j to get the i th row in the output feature matrix.
+  Here, \( k = n \). In a graph, \( x \) multiplies each column in the feature matrix to obtain three n or k dimensional vectors and finally sums them together based on \( j \) to get the \( i \)-th row in the output feature matrix.
 
+  Applications: Locally Optimal Block Preconditioned Conjugate Gradient.
+  Typical Example: PyG's `GCNConv()` for message passing is not exactly this but similar:
+  $$h_i = \sum_{j \in N_i} \frac{1}{\sqrt{\text{deg}(i) \text{deg}(j)}} W x_j$$
+  Here, \( A \) is an adjacency matrix, representing the connections among nodes. 
+  \( Y \) is the summation of message passing.
 
-  Typical Example: PyG - GCNConv() - message passing $$h_i = \sum_{j \in N_i} \frac{1}{\sqrt{\text{deg}(i) \text{deg}(j)}} W x_j$$ (not exactly)
-  A is an adjacent matrix, represents the connections among nodes. 
-  Y is the summation of message passing. 
-
-  In the sparsetir, to load balancing, they reorganize sparse matrix. Based on the connection number of each node, the sparse matrix is separated into several dense matrix. (padding increases flops)
+  In sparsetir, for load balancing, they reorganize the sparse matrix. Based on the connection number of each node, the sparse matrix is separated into several dense matrices (padding increases FLOPs).
   ![ell](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/ell.png)
 
-  when hyp format increase the number of partittions, the memoery transations will increase and finally the benefitt of column partitioning saturates. Generally, the column partition is beneficial. 
+  When the hyp format increases the number of partitions, the memory transactions will increase, and finally, the benefit of column partitioning saturates. Generally, column partitioning is beneficial.
 
+  ###### Multi-head SPMM
+  Based on my understanding, after calculating the attention scores, we could perform a multi-head SPMM:
+  $$h_i = \alpha_{i1} Wx_1 + \alpha_{i2} Wx_2 + \alpha_{i3} Wx_3 + \alpha_{i4} Wx_4$$
 
-  #### SDDMM 
-  sddmm: sparse-dense matrix multiplication
-  PRedS in dgSPARSE are STOA kernel implementation. 
-  $$ B_{i,j} = \sum_{k=1}^{d} A_{i,j} X_{i,k} Y_{k,j} $$
+  ##### SDDMM
+  ###### GSDDMM
+  sddmm: Sampled Dense-Dense Matrix Multiplication.
+  PRedS in dgSPARSE are state-of-the-art (STOA) kernel implementations. (1. load/store intrinsics 2. intra-group and inter-group)
+  Applications: gamma poisson, sparse factor analysis, and alternating least squares.
+  $$B_{i,j} = \sum_{k=1}^{d} A_{i,j} X_{i,k} Y_{k,j}$$
 
-  [summary of spmm and sddmm](https://www.researchgate.net/publication/330891126_Adaptive_sparse_tiling_for_sparse_matrix_multiplication)
+  ###### Multi-head SDDMM
+  [SDDMM in multi-attention](https://docs.dgl.ai/en/1.1.x/notebooks/sparse/graph_transformer.html)
+
+  ##### SPMM and SDDMM Visualization in the Conceptual View
+  ![visualization](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/spmmAndSddmm.png)
+
+  In SpMM, \( S \) is a sparse matrix. We only need to multiply \( O[i][:] = S[i][:] \) (here we only select non-zero elements on \( j \)) with \( D[j][:] \) and aggregate on \( j \).
+
+  In SDDMM, we do \( D1[j][:] \) * \( D2[i][:] \) dot product to get one scalar and use this scalar to multiply \( S[i][j] = O[i][j] \).
+
+  [Summary of SPMM and SDDMM](https://www.researchgate.net/publication/330891126_Adaptive_sparse_tiling_for_sparse_matrix_multiplication)
+
+  ###### Relational Gather-Matmul-Scatter
+
 
 
 
