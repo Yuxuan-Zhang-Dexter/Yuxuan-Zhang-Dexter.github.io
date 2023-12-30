@@ -55,7 +55,7 @@ tags: [note] # TAG names should always be lowercase
   [all relavant gnns](https://theaisummer.com/gnn-architectures/)
 
   ##### SPMM
-  ###### GSPMM
+  ###### 1.GSPMM
   spmm: sparse-dense matrix multiplication, the most generic sparse operator in deep learning. 
   GE-SpMM and DA-SpMM in dgSPARSE are state-of-the-art (STOA) kernel implementations.
   $$Y_{i,k} = \sum_{j=1}^{n} A_{i,j} X_{j,k}$$
@@ -74,21 +74,21 @@ tags: [note] # TAG names should always be lowercase
 
   When the hyp format increases the number of partitions, the memory transactions will increase, and finally, the benefit of column partitioning saturates. Generally, column partitioning is beneficial.
 
-  ###### Multi-head SPMM
+  ###### 2.Multi-head SPMM
   Based on my understanding, after calculating the attention scores, we could perform a multi-head SPMM:
   $$h_i = \alpha_{i1} Wx_1 + \alpha_{i2} Wx_2 + \alpha_{i3} Wx_3 + \alpha_{i4} Wx_4$$
 
   ##### SDDMM
-  ###### GSDDMM
+  ###### 1.GSDDMM
   sddmm: Sampled Dense-Dense Matrix Multiplication.
   PRedS in dgSPARSE are state-of-the-art (STOA) kernel implementations. (1. load/store intrinsics 2. intra-group and inter-group)
   Applications: gamma poisson, sparse factor analysis, and alternating least squares.
   $$B_{i,j} = \sum_{k=1}^{d} A_{i,j} X_{i,k} Y_{k,j}$$
 
-  ###### Multi-head SDDMM
+  ###### 2.Multi-head SDDMM
   [SDDMM in multi-attention](https://docs.dgl.ai/en/1.1.x/notebooks/sparse/graph_transformer.html)
 
-  ##### SPMM and SDDMM Visualization in the Conceptual View
+  ##### SPMM and SDDMM Visualization in the Conceptual View; sparsity in transformers
   ![visualization](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/spmmAndSddmm.png)
 
   In SpMM, \( S \) is a sparse matrix. We only need to multiply \( O[i][:] = S[i][:] \) (here we only select non-zero elements on \( j \)) with \( D[j][:] \) and aggregate on \( j \).
@@ -97,10 +97,50 @@ tags: [note] # TAG names should always be lowercase
 
   [Summary of SPMM and SDDMM](https://www.researchgate.net/publication/330891126_Adaptive_sparse_tiling_for_sparse_matrix_multiplication)
 
-  ###### Relational Gather-Matmul-Scatter
+  Sparsity in Transformers comes from 1.sparse attention(multi-head spmm and sddmm) and 2.sparsity in the network weights after pruning. 
+
+  ###### 1.multi-head spmm and sddmm in sparsetir(sparse attention)
+  In sparsetir, longformer and pixelated butterfly transformer - sparse matrix: band matrix and butterfly matrix. (details, later explores)
+
+  ###### 2.sparse weight(networking pruning)
+  structured pruning:
+    - [block pruning](https://aclanthology.org/2021.emnlp-main.829.pdf): the operator used in block-pruned transformer is SpMM
+  
+  unstructured pruning:
 
 
 
+  ##### Relational Gather-Matmul-Scatter
+  $$Y_{i,l} = \sum_{r=1}^{R} \sum_{j=1}^{n} \sum_{k=1}^{d_{in}} A_{r,i,j} X_{j,k} W_{r,k,l}$$
+
+  A and W are 3D sparse matrix. R represents the number of relations. Under each relation, $A_{i,j}$ is a sparse matrix and $W_{k,l}$ is a dense matrix. X is a 2D feature matrix. 
+
+  ###### 1.Relational Graph Convolution Network(RGCN)
+  This is a generlalization of GCN mdoel to heterogeneous graphs with multiple relations/edge tyypes.
+
+  Existing GNN libraries only use two stages:
+  - $$ T_{r,j,l} = \sum_{k=1}^{d_{in}} X_{j,k} W_{r,k,l} $$ 
+  The first stage fuses gathering and matrix multiplication
+  - $$ Y_{i,l} = \sum_{r=1}^{R} \sum_{j=1}^{n} A_{r,i,j} T_{r,j,l} $$ 
+  The second stage performs scattering. 
+
+  In sparsetir, fuses two  stages into a single operator. 
+  ![a single operator](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/rgcn.png)
+
+  Firstly, in the gathering and matmul, we do a similar hypo form to partition 2D sparse matrix and get ell forms to multiply with the corresponding weight matrix W. Repeat these steps r times( the number of relations). Finally, we aggregate together.
+
+  generally perform better except increase some flops in the padding.
+
+
+  ###### 2.Sparse Convolution (a special case of RGMS in 3D cloud point data)
+  Assumption is that ELL(1)
+  ![sparse convolution](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/sparse_convolution.png)
+  brief understanding: 
+  Firstly, we have a sparse matrix. when move the sparse matrix with offset like coordinates. Then, we have a multiple relations here. 
+
+  SparseTIR's RGMS cannot beat TorchSparse because the flops of matmul in sparseTIR is quadratic.(two matrix mulplication is cubic so there are R weight matrix. Totally, the matmul is quadratic)
+
+  In the related work, there is a summary of current GNN systems and compilers.
 
   #### Triton code
 
