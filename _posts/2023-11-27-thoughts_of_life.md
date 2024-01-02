@@ -75,6 +75,17 @@ To build good communication, I need to start by maintaining a good personal imag
 3. Sunday night garbage disposal.
 4. 11 PM - Dog urine, check gas stove and lock the door.
 
+#### 01/02/2024
+1. geometric deep learning work
+2. job internship searcch and resume update
+
+#### 01/03/2024
+1. geometric deep learning work
+2. llama2 deployment
+3. pytorch connectomics contact
+4. cse 230 learning
+5. play zelda
+
 ### Learning Tasks:
 1. Geometric deep learning.
 2. Llama2 deployment.
