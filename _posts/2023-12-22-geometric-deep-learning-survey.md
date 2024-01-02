@@ -144,4 +144,19 @@ tags: [note] # TAG names should always be lowercase
 
   #### Triton code
 
+  ### General Roadmap of the Survey of Sparse GNN
+  - Step 1: model sparse input. 
+    1. list all gnn function using sparse input and the corresponding mathematical formula from PYG or DGL
+    2. bonus what's the sparse input matrix ?
+
+
+  - Step 2: the current implementations of sparse operator like spmm, sddmm, gather-matl-scatter, scatter ...
+    1. need to learn basic parallel computing like general matrix multiplication. 
+    2. how the current implementation of spmm, sddmm ... in the engineering part. Using mathematical formula or visualization.
+
+  - Step 3: sparse operator local design ...
+
+  My current responsibility is to organize info in the step1 and step2. browse all relevant info and organize them in the structure. 
+
+
 
