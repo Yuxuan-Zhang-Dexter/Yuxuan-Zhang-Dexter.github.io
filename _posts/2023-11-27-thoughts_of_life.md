@@ -15,6 +15,11 @@ The main point of a PhD degree is to make a unique contribution to a specific re
 
 Don't expect to get high-paying jobs from a PhD program. It's not the best choice if you're only looking to earn a lot of money. For PhDs in industrial research, a strong connection with the industry is crucial, and so are solid skills like programming. Check [Vivek's blog](https://blog.vivekhaldar.com/post/29296581613/what-is-life-like-for-phds-in-computer-science-who) for more insights. In summary, a PhD program is not about earning but about a meaningful journey of self-improvement.
 
+more details info:
+  Research is an efficient way to solve problems so no matter what job I am doing, I will always be able to do a research to solve problems.
+
+  My future goal is still industry-oriented, so I will try to build a close connection with the industry. To build this connection, I need to research the potential position in the industry and start to build a solid networking in the industry. This is also an important research topic for my future.
+
 ## How to Be a PhD or How to Do a Research Project
 
 Doing research means focusing deeply on one direction. Your knowledge might be narrow, but you can go deep and excel in a specific area. Even renowned experts might not understand the research direction you're exploring.
@@ -23,6 +28,20 @@ Three thinking ways:
 - **Critical thinking** is about evaluating if the research direction is valuable and the research topic is meaningful. Focusing on a research project, I should see how it can be improved or how you can contribute. 
 - **Divergent thinking** is about how to bring creative ideas to your research and solve questions with what you've learned before.I need to read many blogs and papers to keep my divergent thinking.
 - **Inductive thinking** is about reflecting on your progress and converting what you read into your own thoughts and knowledge daily. It's a long-term process that makes you unique and irreplaceable.
+
+- Extra info for critical thinking:
+In my opinion, **self-recognition** is the baseline of other critical thinking. Before critical thinking, I firstly need to clearly recognize myself. For example, we could think of llm from mathematical and engineering perspectives. From mathematical perspective, there will be a series of upper-level mathematical formula like hidden markov chains... and we try to think about how we design a better algorithm to solve a problem. From engineering perspective, we think of how llm system works in the GPU memory. We don't care about the mathematical formula but we care about the matrix multiplication in the mathematical formula, which could do parallel computation. Come back to my argument why I said that self-recognition is the baseline of other critical thinking. I should know which part I want to contribute to and which part I am good at. For me, I prefer to solve a problem from engineering perspective, which aligns with my future industry-oriented direction. I could understand mathematical problems but I don't want to dedicate myself in this direction.
+
+When I think about a research topic, I should firstly learn about whether the research direction is popular and worthy of exploration. If I want to do some meaningful research, I need to evaluate the value of this research before the start. 
+
+When I pick up a research direction or topic, I need to self recognize myself including the background, resources, and environment to answer a question about how I can contribute to this research direction or topic. Like I mentioned before, I should reconsider whether I should do it from the mathematical perspective or engineering perspective.
+
+- Extra info for Divergent thinking and Inductive thinking:
+
+Before divergent thinking, I care about the essence of this research direction, which build the whole research direction. I should thoroughly master these concepts before reading relevant blogs or papers. I don't need read all blogs or papers because I only need understand the relevant solutions from a upper level like what this solution solve and how the solution roughly works. Only the essence of this research direction is the necessary component to influence the way that I contribute to the research topic. Relevant solutions are the external info which helps me solve the problem if I need them. 
+
+This thinking mode is crucial for the future divergent thinking and inductive thinking because this way could help me to build a solid and clear structure for my research topic. This structure could help me to guide the whole research topic. I will do divergent thinking to involve many relevant info and then I do inductive thinking to package the information into blocks fitting in the whole structure. In this case, all blogs or papers will gradually become my own stuff based on my understanding and structures.
+
 
 ## How to Live Better
 
@@ -37,12 +56,12 @@ To build good communication, I need to start by maintaining a good personal imag
   2. book an appointment for my face
   3. organize hair style(shave head?)
 
-- **Talking SKills**
+- **Soft Skills**
   1. try to actively share my thoughts with various people
+  2. build a relationship. Communication represents a way to build a relationship with others. 
 
   **Fittness**
   1. keep a good body shape and health status
-
 
   ### Winter Break Daily Plan
   #### 12/17/2023
