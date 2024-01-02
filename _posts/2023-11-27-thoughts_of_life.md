@@ -15,33 +15,26 @@ The main point of a PhD degree is to make a unique contribution to a specific re
 
 Don't expect to get high-paying jobs from a PhD program. It's not the best choice if you're only looking to earn a lot of money. For PhDs in industrial research, a strong connection with the industry is crucial, and so are solid skills like programming. Check [Vivek's blog](https://blog.vivekhaldar.com/post/29296581613/what-is-life-like-for-phds-in-computer-science-who) for more insights. In summary, a PhD program is not about earning but about a meaningful journey of self-improvement.
 
-more details info:
-  Research is an efficient way to solve problems so no matter what job I am doing, I will always be able to do a research to solve problems.
-
-  My future goal is still industry-oriented, so I will try to build a close connection with the industry. To build this connection, I need to research the potential position in the industry and start to build a solid networking in the industry. This is also an important research topic for my future.
+### More Details Info:
+- Research is an efficient way to solve problems so no matter what job I am doing, I will always be able to do research to solve problems.
+- My future goal is still industry-oriented, so I will try to build a close connection with the industry. To build this connection, I need to research the potential position in the industry and start to build a solid networking in the industry. This is also an important research topic for my future.
 
 ## How to Be a PhD or How to Do a Research Project
 
 Doing research means focusing deeply on one direction. Your knowledge might be narrow, but you can go deep and excel in a specific area. Even renowned experts might not understand the research direction you're exploring.
 
-Three thinking ways:
-- **Critical thinking** is about evaluating if the research direction is valuable and the research topic is meaningful. Focusing on a research project, I should see how it can be improved or how you can contribute. 
-- **Divergent thinking** is about how to bring creative ideas to your research and solve questions with what you've learned before.I need to read many blogs and papers to keep my divergent thinking.
-- **Inductive thinking** is about reflecting on your progress and converting what you read into your own thoughts and knowledge daily. It's a long-term process that makes you unique and irreplaceable.
+### Three Thinking Ways:
+- **Critical Thinking:** Evaluating if the research direction is valuable and the research topic is meaningful. Focusing on a research project, I should see how it can be improved or how you can contribute. 
+- **Divergent Thinking:** Bringing creative ideas to your research and solving questions with what you've learned before. I need to read many blogs and papers to keep my divergent thinking.
+- **Inductive Thinking:** Reflecting on your progress and converting what you read into your own thoughts and knowledge daily. It's a long-term process that makes you unique and irreplaceable.
 
-- Extra info for critical thinking:
+### Extra Info for Critical Thinking:
 In my opinion, **self-recognition** is the baseline of other critical thinking. Before critical thinking, I firstly need to clearly recognize myself. For example, we could think of llm from mathematical and engineering perspectives. From mathematical perspective, there will be a series of upper-level mathematical formula like hidden markov chains... and we try to think about how we design a better algorithm to solve a problem. From engineering perspective, we think of how llm system works in the GPU memory. We don't care about the mathematical formula but we care about the matrix multiplication in the mathematical formula, which could do parallel computation. Come back to my argument why I said that self-recognition is the baseline of other critical thinking. I should know which part I want to contribute to and which part I am good at. For me, I prefer to solve a problem from engineering perspective, which aligns with my future industry-oriented direction. I could understand mathematical problems but I don't want to dedicate myself in this direction.
 
-When I think about a research topic, I should firstly learn about whether the research direction is popular and worthy of exploration. If I want to do some meaningful research, I need to evaluate the value of this research before the start. 
-
-When I pick up a research direction or topic, I need to self recognize myself including the background, resources, and environment to answer a question about how I can contribute to this research direction or topic. Like I mentioned before, I should reconsider whether I should do it from the mathematical perspective or engineering perspective.
-
-- Extra info for Divergent thinking and Inductive thinking:
-
-Before divergent thinking, I care about the essence of this research direction, which build the whole research direction. I should thoroughly master these concepts before reading relevant blogs or papers. I don't need read all blogs or papers because I only need understand the relevant solutions from a upper level like what this solution solve and how the solution roughly works. Only the essence of this research direction is the necessary component to influence the way that I contribute to the research topic. Relevant solutions are the external info which helps me solve the problem if I need them. 
+### Extra Info for Divergent Thinking and Inductive Thinking:
+Before divergent thinking, I care about the essence of this research direction, which builds the whole research direction. I should thoroughly master these concepts before reading relevant blogs or papers. I don't need to read all blogs or papers because I only need to understand the relevant solutions from an upper level like what this solution solves and how the solution roughly works. Only the essence of this research direction is the necessary component to influence the way that I contribute to the research topic. Relevant solutions are the external info which helps me solve the problem if I need them. 
 
 This thinking mode is crucial for the future divergent thinking and inductive thinking because this way could help me to build a solid and clear structure for my research topic. This structure could help me to guide the whole research topic. I will do divergent thinking to involve many relevant info and then I do inductive thinking to package the information into blocks fitting in the whole structure. In this case, all blogs or papers will gradually become my own stuff based on my understanding and structures.
-
 
 ## How to Live Better
 
@@ -51,44 +44,40 @@ But what I really want is to be free to do what I want. To achieve this, I need 
 
 To build good communication, I need to start by maintaining a good personal image and being open to sharing my thoughts with others. I don't aim to be incredibly wealthy or famous. I just want a free and self-satisfying life.
 
-- **Keep a good personal image** 
-  1. preparing to use Kate Somerville EradiKate Acne Treatment for my face
-  2. book an appointment for my face
-  3. organize hair style(shave head?)
+### Keep a Good Personal Image:
+- Preparing to use Kate Somerville EradiKate Acne Treatment for my face.
+- Book an appointment for my face.
+- Organize hairstyle (consider shaving head?).
 
-- **Soft Skills**
-  1. try to actively share my thoughts with various people
-  2. build a relationship. Communication represents a way to build a relationship with others. 
+### Soft Skills:
+- Try to actively share my thoughts with various people.
+- Build relationships. Communication represents a way to build a relationship with others.
 
-  **Fittness**
-  1. keep a good body shape and health status
+### Fitness:
+- Keep a good body shape and health status.
 
-  ### Winter Break Daily Plan
-  #### 12/17/2023
-  1. wake up and exercise and take a shower.
-  2. try to deploy llama 2-7B and catch up with the current process
-  3. one course from CS 229 and CS 230 and organize notes
-   - cs229: https://github.com/maxim5/cs229-2018-autumn
-   - cs230: https://github.com/maxim5/cs230-2018-autumn
-  4. seek job and research opportunities
-  5. Zelda: 
-   - shrine test
-   - ex items
-   - next divine beast
-  6. face treatment
-  7. update next day
+### Winter Break Daily Plan
 
-  #### 12/17/2023
-  1. 7:30 狗子撒尿，兔子喂食，富贵竹浇水，确认狗粮和水
-  2. 上午遛狗和兔子喂食
-  3. 周天晚上倒垃圾
-  4. 晚上11点狗子撒尿，检查煤气灶和锁门
-  learning tasks:
-  1. geometric deep learning 
-  2. llama2 deployment
-  3. pytorch connectomics
-  4. cse230
-  5. cse229
+#### 12/17/2023
+1. Wake up, exercise, and take a shower.
+2. Try to deploy llama 2-7B and catch up with the current process.
+3. One course from CS 229 and CS 230 and organize notes:
+   - CS229: [https://github.com/maxim5/cs229-2018-autumn](https://github.com/maxim5/cs229-2018-autumn)
+   - CS230: [https://github.com/maxim5/cs230-2018-autumn](https://github.com/maxim5/cs230-2018-autumn)
+4. Seek job and research opportunities.
+5. Zelda: Shrine test, ex items, next divine beast.
+6. Face treatment.
+7. Update next day.
 
-  
+#### 12/18/2023
+1. 7:30 - Dog urine, rabbit feeding, watering lucky bamboo, check dog food and water.
+2. Morning dog walk and rabbit feeding.
+3. Sunday night garbage disposal.
+4. 11 PM - Dog urine, check gas stove and lock the door.
 
+### Learning Tasks:
+1. Geometric deep learning.
+2. Llama2 deployment.
+3. PyTorch connectomics.
+4. CSE230.
+5. CSE229.
