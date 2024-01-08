@@ -158,5 +158,45 @@ tags: [note] # TAG names should always be lowercase
 
   My current responsibility is to organize info in the step1 and step2. browse all relevant info and organize them in the structure. 
 
+  #### Step 1
+  models:  GCN, GraphSAGE, GIN, GAT, PNA, EdgeCNN
+  
+  PYG functions: GCNConv; SAGEConv; GINConv; GATConv / GATv2Conv; PNAConv; EdgeConv 
+
+  Operators: spmm, sddmm, gather-matl-scatter, scatter
+
+  | Models   | PYG Func   | Operators   |
+  |------------|------------|------------|
+  | GCN | GCNConv | SPMM |
+  | GraphSAGE | SAGEConv | SPMM & scatter |
+  | GIN | GINConv | gather-mul-scatter |
+  | GAT | GATConv / GATv2Conv| SPMM & SDDMM |
+  | PNA | PNAConv| SPMM & scatter |
+  | EdgeCNN | EdgeConv | gather-mul-scatter | 
+
+  Mathematical model formula corresponding to operators:
+  **GCN**: 
+  - Message Passing Stage: $$h_i = \sum_{j \in N_i} \frac{1}{\sqrt{\text{deg}(i) \text{deg}(j)}} W x_j$$ = SPMM
+  **GraphSAGE**: 
+  - [Neighbor Sampling](https://docs.dgl.ai/en/0.9.x/tutorials/large/L0_neighbor_sampling_overview.html) 
+  - Aggregation: [scatter_add, scatter_mean, scatter_max](https://pytorch-scatter.readthedocs.io/en/latest/functions/scatter.html) like ($$\text{mean}_{j \in \mathcal{N}_i} (h_j)$$) = SCATTER
+  - linear transformation $$h_i' = W_1 h_i + W_2 \cdot \text{mean}_{j \in \mathcal{N}_i} (h_j)$$ = SPMM
+  **GIN** :
+  -  ![gin visualization](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/gin.png) = gather-mul-scatter
+  **GAT** :
+  -  calculate node embedding  $$h_i = \alpha_{i1} Wx_1 + \alpha_{i2} Wx_2 + \alpha_{i3} Wx_3 + \alpha_{i4} Wx_4$$ = SPMM
+  - calculate attention scores = SDDMM (?)
+
+
+
+  Engineering formula corresponding to operators:
+  **SPMM** 
+  **SDDMM**
+  **SCATTER**
+
+  
+
+  #### CUDA CODE
+
 
 
