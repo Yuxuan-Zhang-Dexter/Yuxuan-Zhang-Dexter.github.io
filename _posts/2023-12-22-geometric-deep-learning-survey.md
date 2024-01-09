@@ -158,7 +158,7 @@ tags: [note] # TAG names should always be lowercase
 
   My current responsibility is to organize info in the step1 and step2. browse all relevant info and organize them in the structure. 
 
-  #### Step 1
+  #### Step 1: model input
   models:  GCN, GraphSAGE, GIN, GAT, PNA, EdgeCNN
   
   PYG functions: GCNConv; SAGEConv; GINConv; GATConv / GATv2Conv; PNAConv; EdgeConv 
@@ -194,16 +194,33 @@ $$\alpha_{ij}^{(l)} = \frac{\exp\left(e_{ij}^{(l)}\right)}{\sum_{k \in \mathcal{
 $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \mathbf{z}_j^{(l)} \right)$$
  = SDDMM (?)
 
+ **PNA**:
+  - [mlp](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.nn.conv.PNAConv.html#torch_geometric.nn.conv.PNAConv) $$x'_i = \gamma \circ \left( x_i \oplus \bigoplus_{j \in N(i)} h_\theta (x_i, x_j) \right)$$ = SPMM
+  - aggregation = scatter
 
+ **EdgeConv**(point cloud)
+  - gather-mul-scatter
 
-  Engineering formula corresponding to operators:
-  **SPMM** 
-  **SDDMM**
-  **SCATTER**
+  #### Step 2: operator analysis
 
-  
+  [Matrix Multiplication in Parallel Computing](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
+
+  SPMM
+
+  SDDMM
+
+  Scatter(aggregation)
+
+  gather-mul-scatter
+
 
   #### CUDA CODE
+
+  [Guide to Run Cuda in Colab](https://www.wikihow.com/Run-CUDA-C-or-C%2B%2B-on-Jupyter-(Google-Colab)#:~:text=To%20run%20CUDA%20C%2FC%2B%2B,the%20beginning%20of%20your%20code.&text=If%20all%20went%20well%20this,%3A%20result%20is%208%5Cn%20.)
+
+  [cuda code](https://github.com/Yuxuan-Zhang-Dexter/cuda-practice.git)
+
+  
 
 
 
