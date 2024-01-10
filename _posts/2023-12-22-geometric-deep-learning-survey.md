@@ -204,6 +204,7 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   #### Step 2: operator analysis
 
   [Matrix Multiplication in Parallel Computing](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
+  His corresponding Youtube Channel is fantastic explanation of cuda parallel computing. 
 
   SPMM
 
