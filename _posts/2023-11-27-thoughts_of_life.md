@@ -63,9 +63,14 @@ To build good communication, I need to start by maintaining a good personal imag
 
 ### Self-Reflection
 My current goal is a qualified CSE phd.
+
 #### step1: master code ability
+core: understand how the computer logically works from the code in a abstract way
 1. accumulate code experience - practice and practicce !
-2. understand how the computer logically works from the code
+
+#### step2: master mathematical ability
+core: understand how the formula works in a high-level way, not details, but meanings.
+
 
 ### Winter Break Daily Plan
 
