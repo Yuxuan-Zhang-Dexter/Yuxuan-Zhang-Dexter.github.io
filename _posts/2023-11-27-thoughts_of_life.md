@@ -36,6 +36,11 @@ Before divergent thinking, I care about the essence of this research direction, 
 
 This thinking mode is crucial for the future divergent thinking and inductive thinking because this way could help me to build a solid and clear structure for my research topic. This structure could help me to guide the whole research topic. I will do divergent thinking to involve many relevant info and then I do inductive thinking to package the information into blocks fitting in the whole structure. In this case, all blogs or papers will gradually become my own stuff based on my understanding and structures.
 
+### Experience Rule
+
+1. I will live a life in a way how gradient descent works. [li mu life note](https://www.bilibili.com/read/cv13335461/?spm_id_from=333.999.0.0)
+2. When I figure out a self-defined path, I need to make every solid step in the path, which could support me to go further. 
+
 ## How to Live Better
 
 Honestly, I'm an anime fan who loves the vibrant life it presents, unlike the black and white of my own life, which feels boring.
