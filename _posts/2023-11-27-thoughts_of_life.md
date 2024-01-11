@@ -56,6 +56,12 @@ To build good communication, I need to start by maintaining a good personal imag
 ### Fitness:
 - Keep a good body shape and health status.
 
+### Self-Reflection
+My current goal is a qualified CSE phd.
+#### step1: master code ability
+1. accumulate code experience - practice and practicce !
+2. understand how the computer logically works from the code
+
 ### Winter Break Daily Plan
 
 #### 12/17/2023
