@@ -221,6 +221,14 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 
   [cuda code](https://github.com/Yuxuan-Zhang-Dexter/cuda-practice.git)
 
+  ### reinforce code understanding abbout spmm, sddmm, scatter, gather-mul-scatter
+  1. DIMSET in PYG: think from computer perspective
+  2. redo the past organization
+  3. consider sparse input: GCN and MeshGPT
+
+
+
+
   
 
 
