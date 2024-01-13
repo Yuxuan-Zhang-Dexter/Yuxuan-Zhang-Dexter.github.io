@@ -221,6 +221,10 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 
   [cuda code](https://github.com/Yuxuan-Zhang-Dexter/cuda-practice.git)
 
+  Video Tutorials:
+  1. [parallel computing and scientific machine learning](https://www.youtube.com/watch?v=3IoqyXmAAkU&list=PLCAl7tjCwWyGjdzOOnlbGnVNZk0kB8VSa) and [its blog](https://book.sciml.ai/)
+  2. [cuda crash course](https://www.youtube.com/watch?v=3xfyiWhtvZw&t=378s)
+
   ### reinforce code understanding abbout spmm, sddmm, scatter, gather-mul-scatter
   1. DIMSET in PYG: think from computer perspective
   2. redo the past organization
