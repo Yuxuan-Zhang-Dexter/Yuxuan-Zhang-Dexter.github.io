@@ -63,20 +63,28 @@ In high-level understanding of message embeddings,
         return h
 ```
 In summary, 
+
     Dimnet is not spmm because when we aggregate every node with their neighbor information, they don't use matrix multiplication. They use scatter to aggregate jth neighbors' message into ith node, by using index idx_ji connections between ith node and jth neighbors. The complex calculation of sum of mkj is not using any sparse adjacent matrix in einsum(). idx_kj avoids using sparse matrix here. 
 
 x_ij: num_node * hidden_embedding, mij - the ith node embedding in the previous layer.
+
 x_kj: num_node * hidden_embedding, sum of mkj - the jth node special embedding
 
 Core manipulations:
+
 ```
 x_kj = torch.einsum('wj,wl,ijl->wi', sbf, x_kj[idx_kj], self.W)
 ```
 confused about idx_kj ... index of jth neighbors' connections with neighbors'kth neighbors.?
+
 w: idx_kj
+
 l: hidden_channels
+
 i: hidden_channels
+
 j: num_bilinear
+
 special manipulations to aggregate all mkj message.
 
 wj * wl = wjl -> element-wise multiplication wjl * ijl -> sum over j and l, wi
