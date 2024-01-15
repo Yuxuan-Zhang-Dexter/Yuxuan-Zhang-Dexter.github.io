@@ -230,6 +230,10 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   2. redo the past organization
   3. consider sparse input: GCN and MeshGPT
 
+  ### 01-14-meeting
+  1. explore graphs concepts, what type of dataset we could transform into graph like citation, molecular graph...
+  2. spmm in the gnns, next sddmm
+  3. parallel computing
 
 
 

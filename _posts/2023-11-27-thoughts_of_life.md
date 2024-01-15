@@ -71,6 +71,11 @@ core: understand how the computer logically works from the code in a abstract wa
 #### step2: master mathematical ability
 core: understand how the formula works in a high-level way, not details, but meanings.
 
+### Life Principles
+1. "Treat others with equality, neither subservient nor arrogant."
+2. "Take responsibility for one's own life."
+3. "Adhere to one's own principles."
+
 
 ### Winter Break Daily Plan
 
