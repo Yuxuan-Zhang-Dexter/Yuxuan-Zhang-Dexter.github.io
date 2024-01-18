@@ -8,6 +8,8 @@ tags: [llm]     # TAG names should always be lowercase
 ## General Analysis of GPT 
 1. In the mathematics and engineering aspects, I need to understand how the cache hits influence the performance on llm.
 
+[KV-Caching abusing use in llm](https://medium.com/@joaolages/kv-caching-explained-276520203249)
+
 **essential mechanism**
 
 ## intro to paper of speculative decoding 
