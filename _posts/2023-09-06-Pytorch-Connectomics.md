@@ -2,7 +2,7 @@
 title: Pytorch Connectomics Learning Process Record
 date: 2023-09-06 09:20:00 -0700
 categories: [Machine Learning, Image Classification]
-tags: [Project]     # TAG names should always be lowercase
+tags: [project]     # TAG names should always be lowercase
 ---
 # Learning Plan
 I aim to train models in Pytorch Connectomics software application using the brain images and build a reliable pipeline for future use in electronical microscopy images. Firstly, to approach the Pytorch Connectomics, I start to read the published paper: PyTorch Connectomics: A Scalable and Flexible Segmentation Framework for EM Connectomics (https://arxiv.org/abs/2112.05754). In addition, I also browse through the official website (https://connectomics.readthedocs.io/en/latest/). After understanding the most terminologies and basic concepts, I continue to build a workflow as a blueprint for my future exploration.

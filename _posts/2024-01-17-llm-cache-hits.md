@@ -16,4 +16,3 @@ tags: [llm]     # TAG names should always be lowercase
 [speculative decoding](https://arxiv.org/abs/2308.04623)
 
 new one [medusa blog](https://www.together.ai/blog/medusa)
-

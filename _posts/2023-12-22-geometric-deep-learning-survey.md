@@ -235,6 +235,9 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   2. spmm in the gnns, next sddmm
   3. parallel computing
 
+  ### model inputs
+  
+
 
 
   
