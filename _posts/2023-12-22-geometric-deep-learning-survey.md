@@ -236,7 +236,36 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   3. parallel computing
 
   ### model inputs
-  
+  [hugging face rough classification](https://huggingface.co/graphs-datasets)
+  [PYG General classification](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#heterogeneous-datasets)
+
+  [stanford graph dataset collections](https://snap.stanford.edu/data/)
+  based on PYG classifications,
+
+  [all available graph datasets](https://paperswithcode.com/datasets?mod=graphs)
+
+  #### Homogeneous Datasets:
+  **KarateClub**: Zachary's karate club network; sparse feature matrix - gcn
+
+  **[TUDataset](https://chrsmrrs.github.io/datasets/docs/datasets/)**: graph kernel benchmark dataset
+  - small molecules like AIDS - sparse connections
+  - bioinformatics like PROTEINS - sparse connections
+  - computer vision ?
+  - social netwrok - sparse connections
+
+  **Planetoid**:
+  They represent networks of research papers, where each connection is a citation.
+
+  - Cora: it consists of 2,708 machine learning papers that belong to one of seven categories. Node features represent the presence (1) or absence (0) of 1,433 words in a paper (binary bag of words).
+  - CiteSeer: it is a bigger but similar dataset of 3,327 scientific papers to classify into one of six categories. Node features represent the presence (1) or absence (0) of 3,703 words in a paper.
+  - PubMed: it is an even bigger dataset with 19,717 scientific publications about diabetes from PubMed’s database, classified into three categories. Node features are TF-IDF weighted word vector from a dictionary of 500 unique words.
+
+
+  #### Heterogeneous Datasets:
+
+
+
+
 
 
 
