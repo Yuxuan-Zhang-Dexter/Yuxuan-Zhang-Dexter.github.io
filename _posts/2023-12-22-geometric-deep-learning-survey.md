@@ -264,7 +264,7 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   [Open Graph Benchmark Paper](https://arxiv.org/pdf/2005.00687.pdf)
 
   ##### classify graph datasets based on data type:
-  - Molecular Dataset:
+  - Molecular graphs:
   
     1. TUDataset(small molecular, bioinformatics): [the explanation of the molecular graph dataset](https://towardsdatascience.com/building-a-graph-convolutional-network-for-molecular-property-prediction-978b0ae10ec4) shows that atoms are nodes; bonds are edges; connections form a sparse adjacent matrix
     2. [MoleculeNet dataseet benchmark](https://paperswithcode.com/dataset/moleculenet)
@@ -275,7 +275,7 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
     1. Cora, CiteSeer, Pubmed
 
   - Biological networks
-  - Molecular graphs
+    1. protein in TUDataset
   - source code ASTs
   - Knowledge graphs
     1. [FB15K](https://medium.com/stanford-cs224w/knowledge-graph-embeddings-simplistic-and-powerful-representations-ed43a1a73c7c) and WN18
