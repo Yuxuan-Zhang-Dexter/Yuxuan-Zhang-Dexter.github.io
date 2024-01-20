@@ -244,7 +244,7 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 
   [all available graph datasets](https://paperswithcode.com/datasets?mod=graphs)
 
-  #### Homogeneous Datasets:
+  #### Code with Datasets:
   **KarateClub**: Zachary's karate club network; sparse feature matrix - gcn
 
   **[TUDataset](https://chrsmrrs.github.io/datasets/docs/datasets/)**: graph kernel benchmark dataset
@@ -260,8 +260,47 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   - CiteSeer: it is a bigger but similar dataset of 3,327 scientific papers to classify into one of six categories. Node features represent the presence (1) or absence (0) of 3,703 words in a paper.
   - PubMed: it is an even bigger dataset with 19,717 scientific publications about diabetes from PubMed’s database, classified into three categories. Node features are TF-IDF weighted word vector from a dictionary of 500 unique words.
 
+  #### categories of graph datasets
+  [Open Graph Benchmark Paper](https://arxiv.org/pdf/2005.00687.pdf)
 
-  #### Heterogeneous Datasets:
+  ##### classify graph datasets based on data type:
+  - Molecular Dataset:
+  
+    1. TUDataset(small molecular, bioinformatics): [the explanation of the molecular graph dataset](https://towardsdatascience.com/building-a-graph-convolutional-network-for-molecular-property-prediction-978b0ae10ec4) shows that atoms are nodes; bonds are edges; connections form a sparse adjacent matrix
+    2. [MoleculeNet dataseet benchmark](https://paperswithcode.com/dataset/moleculenet)
+
+  - Social networks:
+    1. [stanford large network dataset](https://snap.stanford.edu/data/)
+  - Information networks:
+    1. Cora, CiteSeer, Pubmed
+
+  - Biological networks
+  - Molecular graphs
+  - source code ASTs
+  - Knowledge graphs
+    1. [FB15K](https://medium.com/stanford-cs224w/knowledge-graph-embeddings-simplistic-and-powerful-representations-ed43a1a73c7c) and WN18
+
+  #### classify graph datasets based on prediction like DGL
+  - Node Property Prediction
+    1. Cora,  CiteSeer, PubMed (citation as connections showed by a sparse adjacent matrix) - information network
+  - Link Property Prediction (recommendation system)
+    1. FB15K and WN18 - very sparse. assuming multiple adjacent matrix under different relations - knowledge graph
+    2. stanford large network dataset(snap)
+  - Graph Property Prediction
+    1. tudataset - molecular graph
+    2. Abstract Systax Tree (AST)
+  
+  OGB graph dataset classification:
+
+  ![ogb](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/ogb.png)
+
+
+
+
+
+
+
+
 
 
 
