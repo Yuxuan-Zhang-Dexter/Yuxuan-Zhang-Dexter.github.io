@@ -294,6 +294,17 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 
   ![ogb](https://raw.githubusercontent.com/Yuxuan-Zhang-Dexter/Yuxuan-Zhang-Dexter.github.io/main/_imgs/ogb.png)
 
+原创性的工作：
+1. movivation：数据来源如何抽象成数据结构
+2. self-contribution: organization logics (structure); draw graphs for understanding - Lucid.app；questions
+3. questions and problems
+4. appendix
+
+
+1.  生活中哪些应用是可以被抽象成图的 数据是怎么被抽象的，具体列表，画图
+2.  这些东西怎么算的
+
+![Alt text](8f9027dc76a85df9473a619ae7b141c.jpg)
 
 
 
