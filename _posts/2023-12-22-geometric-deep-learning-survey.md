@@ -263,6 +263,8 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
   #### categories of graph datasets
   [Open Graph Benchmark Paper](https://arxiv.org/pdf/2005.00687.pdf)
 
+  [survey example](https://arxiv.org/pdf/2011.02260.pdf)
+
   ##### classify graph datasets based on data type:
   - Molecular graphs:
   
@@ -305,6 +307,11 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 2.  这些东西怎么算的
 
 ![Alt text](8f9027dc76a85df9473a619ae7b141c.jpg)
+
+#### another type of graph data structure
+[mesh gpt](https://nihalsid.github.io/mesh-gpt/)
+[tabular graph](https://arxiv.org/abs/2307.08623)
+
 
 
 
