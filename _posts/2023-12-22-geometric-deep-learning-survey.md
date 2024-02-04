@@ -312,6 +312,9 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 [mesh gpt](https://nihalsid.github.io/mesh-gpt/)
 [tabular graph](https://arxiv.org/abs/2307.08623)
 
+##### mesh gpt
+[triangle mesh explanation](https://medium.com/@daviddelaiglesiacastro/3d-point-cloud-generation-from-3d-triangular-mesh-bbb602ecf238)
+
 
 
 
