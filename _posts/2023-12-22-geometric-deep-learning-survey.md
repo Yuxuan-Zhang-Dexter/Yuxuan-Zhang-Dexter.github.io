@@ -317,11 +317,20 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 
 
 ### 02/04/2024
+emphasis: relation -> sparsity；architecutre + algorithm
+
+at the level of hardware abstraction, particularly concerning computing and memory layers, devising methods to efficiently compute and store relational data poses a significant challenge that we aim to tackle in the future.
 
 2. point cloud graph stucture 
 1. open catalyst project (mlperf benchmark) + moleculenet deep chem 数据源到数据之间怎么转换
 4. network - citation, social network in recommendation syste - network X ; recommendation system
 3. knowledge graph 再看看
+
+Concise summary of my work purpose: I need to abstract common relations from dataset and model in algorithms. When I want to accelerate the model at hardware abstraction, I need to thinks of how to deal with sparsity in hardware, which is caused by relations in the model. 
+
+specific tasks:
+1. 重新整理motivations： 明确工作目标
+2. 重新整理report 结构： initial step- 理解什么数据转化成graph； second step - 思考之间的relations
 
 
 
