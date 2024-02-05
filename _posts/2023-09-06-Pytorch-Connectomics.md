@@ -36,8 +36,3 @@ into memory. Different from the binary semantic segmentation models that have on
 Data Loading -> Data Augmentation (supervised learning / unsupervised learning, ? reject sample) -> training (model choices) -> Infferences 
 
 
-# New tools for mitochondira and neuron segmentation update
-
-for the mitochondria, empanada-napari has a perfect pretrained model mitonet to do the mitochondria segmentation.
-
-for the embrain in the vast, it could perfectly align with the lab image segmentation work. 

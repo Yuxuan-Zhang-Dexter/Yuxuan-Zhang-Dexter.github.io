@@ -316,6 +316,17 @@ $$h_i^{(l+1)} = \sigma\left( \sum_{j \in \mathcal{N}(i)} \alpha_{ij}^{(l)} \math
 [triangle mesh explanation](https://medium.com/@daviddelaiglesiacastro/3d-point-cloud-generation-from-3d-triangular-mesh-bbb602ecf238)
 
 
+### 02/04/2024
+
+2. point cloud graph stucture 
+1. open catalyst project (mlperf benchmark) + moleculenet deep chem 数据源到数据之间怎么转换
+4. network - citation, social network in recommendation syste - network X ; recommendation system
+3. knowledge graph 再看看
+
+
+
+
+
 
 
 
