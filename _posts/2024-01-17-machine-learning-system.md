@@ -14,6 +14,7 @@ tags: [llm]     # TAG names should always be lowercase
 2. How can we schedule the workload of llm (like when the text generate stops)
 3. Why does Amazon cloud services dominate in the market than google cloud service? (google invents many important cloud techniques)
 4. Why does tesla start to build its own super computer like google using TPU? (cloud cluster is cheaper than super computer but Nvidia hardware to Amazon cloud services to big tech software, Nvidia monopoly profits so high)
+5. since reduce_scatter and all-gather are important manipulations in gpu, ring algorithm dominate in reducing the effects of bandwidth. Is there are any better way to improve the bandwidth speed? (Full Shared Data Parallel - FSDP)
 
 ## the ml system important surveys
 
