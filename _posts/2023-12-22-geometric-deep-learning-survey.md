@@ -331,6 +331,7 @@ Concise summary of my work purpose: I need to abstract common relations from dat
 specific tasks:
 1. 重新整理motivations： 明确工作目标
 2. 重新整理report 结构： initial step- 理解什么数据转化成graph； second step - 思考之间的relations
+3. 整理成repo
 
 
 

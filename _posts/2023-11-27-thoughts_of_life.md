@@ -49,6 +49,8 @@ But what I really want is to be free to do what I want. To achieve this, I need 
 
 To build good communication, I need to start by maintaining a good personal image and being open to sharing my thoughts with others. I don't aim to be incredibly wealthy or famous. I just want a free and self-satisfying life.
 
+In addition to being a free man in the world, I have another goal: Owning the power to pursue people I like and protect people I love. 
+
 ### Phd Research Direction
 algorithms + architecture (science + engineering)
 A thorough understanding of how models theoretically work and how computer runs models.
