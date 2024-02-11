@@ -49,7 +49,7 @@ But what I really want is to be free to do what I want. To achieve this, I need 
 
 To build good communication, I need to start by maintaining a good personal image and being open to sharing my thoughts with others. I don't aim to be incredibly wealthy or famous. I just want a free and self-satisfying life.
 
-In addition to being a free man in the world, I have another goal: Owning the power to pursue people I like and protect people I love. 
+After encountering an extraordinary woman who resonates deeply with my soul—a feeling I attribute to my perhaps naive nature—I've found a renewed motivation in life. Beyond the pursuit of personal freedom, I must have the strength to pursue people I like and protect people I love. This sentiment has never been so potent within me, but meeting her has been transformative. Although the likelihood of a relationship with her is slim, I treasure the impact she has had on my psyche. I am compelled to better myself both outwardly and inwardly. I aim to seek out accolades, achievements, and any means that could bolster my financial stability. More crucially, I need to enhance my capabilities and fortitude, as these are the foundation of my life. Such self-improvement will ensure that I do not fear failure, for I will always have the strength to rise again. This path is how I can truly offer protection to those I love.
 
 ### Phd Research Direction
 algorithms + architecture (science + engineering)
