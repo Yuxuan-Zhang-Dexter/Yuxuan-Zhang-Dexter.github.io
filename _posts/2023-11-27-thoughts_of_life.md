@@ -82,40 +82,7 @@ core: understand how the formula works in a high-level way, not details, but mea
 2. "Take responsibility for one's own life."
 3. "Adhere to one's own principles."
 
+随记：
+有个少年，22年来没有真正喜欢过一人。当他第一次遇到喜欢的人，他被这种从未体验的感觉冲昏了头。他去知乎搜索，得到的答案是罗曼蒂克之爱的核心与基础——心理可视性。少年在她身上找到了自己的影子。随着他独自和她逐渐深入的聊天，他们有着相同的爱好，类似的高傲，相同的见解。仿佛少年的一切都在一比一复刻一般在她的身上。这种交流就像是灵魂的共振。少年清楚地感受掉自己灵魂的一部分与她的那部分产生了共振。少年陷入了第一次爱河。
 
-### Winter Break Daily Plan
-
-#### 12/17/2023
-1. Wake up, exercise, and take a shower.
-2. Try to deploy llama 2-7B and catch up with the current process.
-3. One course from CS 229 and CS 230 and organize notes:
-   - CS229: [https://github.com/maxim5/cs229-2018-autumn](https://github.com/maxim5/cs229-2018-autumn)
-   - CS230: [https://github.com/maxim5/cs230-2018-autumn](https://github.com/maxim5/cs230-2018-autumn)
-4. Seek job and research opportunities.
-5. Zelda: Shrine test, ex items, next divine beast.
-6. Face treatment.
-7. Update next day.
-
-#### 12/18/2023
-1. 7:30 - Dog urine, rabbit feeding, watering lucky bamboo, check dog food and water.
-2. Morning dog walk and rabbit feeding.
-3. Sunday night garbage disposal.
-4. 11 PM - Dog urine, check gas stove and lock the door.
-
-#### 01/02/2024
-1. geometric deep learning work
-2. job internship searcch and resume update
-
-#### 01/03/2024
-1. geometric deep learning work
-2. llama2 deployment
-3. pytorch connectomics contact
-4. cse 230 learning
-5. play zelda
-
-### Learning Tasks:
-1. Geometric deep learning.
-2. Llama2 deployment.
-3. PyTorch connectomics.
-4. CSE230.
-5. CSE229.
+但是，少年没有底气去追求她。当少年清楚认识到，自己22年第一次遇见了让自己动情的女孩，但是少年却没有能力去追求这个比他更加优秀的女孩儿。少年陷入了不断地内耗。他一遍遍在空闲时间无法控制地回忆和她相处的点点滴滴，却在清醒的时候拼命抑制内心的悸动。少年知道如果真正爱一个人，需要给她带来更好的未来。然而，在这苍白的时间点，少年感受到了无助和绝望。她的出现一开始给少年带来了新的人生动力，为了追求少年喜欢的人和保护少年爱的人而努力。这一切都是美好的，但是在这个时刻，少年是痛苦的因为少年短时间做不到。少年的理智让他远离她。因为没有结果的爱恋，单方面的爱恋只会导致无限的内耗最后一无所有。少年甚至会因为她与其他人的逗笑而感到嫉妒。也许这22年已经永久让少年失去爱一个人能力，但是少年不解为何自己会如此痛苦。。。少年仿佛始终只能是那个孤单的少年。。。抱歉了
