@@ -333,6 +333,8 @@ specific tasks:
 2. 重新整理report 结构： initial step- 理解什么数据转化成graph； second step - 思考之间的relations
 3. 整理成repo
 
+[graph topology](https://arxiv.org/pdf/2206.00606.pdf)
+
 
 
 
