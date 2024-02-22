@@ -335,6 +335,8 @@ specific tasks:
 
 [graph topology](https://arxiv.org/pdf/2206.00606.pdf)
 
+[cloud point to graph](https://m-lin-dm.github.io/graph-creation/)
+
 
 
 
