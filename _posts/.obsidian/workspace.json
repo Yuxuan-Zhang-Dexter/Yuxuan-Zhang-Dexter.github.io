@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53abf9dc33a8bbc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-01-11-CSE151B.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fecaa4228a544",
+  "active": "53abf9dc33a8bbc8",
   "lastOpenFiles": [
+    "2024-02-01-CSE251A.md",
     "2023-11-27-thoughts_of_life.md",
     "2023-12-22-geometric-deep-learning-survey.md",
-    "2024-01-11-CSE151B.md",
-    "2024-02-01-CSE251A.md"
+    "2024-01-11-CSE151B.md"
   ]
 }
