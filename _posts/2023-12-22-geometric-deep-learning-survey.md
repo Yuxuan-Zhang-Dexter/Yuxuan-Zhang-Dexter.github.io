@@ -337,6 +337,49 @@ specific tasks:
 
 [cloud point to graph](https://m-lin-dm.github.io/graph-creation/)
 
+练习画图
+
+1. motivation 想要体现什么, 图的逻辑完整，高度压缩和总结
+2. dense informative 
+3. 字体大小和格式都要统一，一致性
+edrawmax
+ominigraffle
+查查画图的软件
+
+文章：
+relbench - dataset = relational database - dlrm
+one2345plus - point cloud
+mesh face graph -> egnn 位置信息加进去
+
+整个逻辑: relation -> model -> 底层sparse
+
+研究方向: relation -> sparse
+
+relations: (去定义和分类这一系列的关系)
+relation database
+graph
+mesh + voxel: 位置关系(point cloude)和face 约束（定义形状）和连接关系？
+face graph - 失去了位置关系(point cloude)和face 约束（定义形状），只有连接关系
+molecule
+network
+point cloud 位置关系
+
+阅读方法：
+1.找resources
+2.filter 只看重点并且 high-level, 形成结构
+
+大图：
+data source： relation data -> graph (如何转换，不一定是graph)
+graph 即是data source 也是 model
+
+理解数据: data mining - 未来主流: 除了llm，多模态信息输入(text, video, relational data)
+
+research:
+调研->motivation
+
+create paper list to include paper titles - citation - main points
+
+
 
 
 

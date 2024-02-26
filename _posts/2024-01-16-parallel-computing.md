@@ -16,3 +16,4 @@ tags: [code]     # TAG names should always be lowercase
   Video Tutorials:
   1. [parallel computing and scientific machine learning](https://www.youtube.com/watch?v=3IoqyXmAAkU&list=PLCAl7tjCwWyGjdzOOnlbGnVNZk0kB8VSa) and [its blog](https://book.sciml.ai/)
   2. [cuda crash course](https://www.youtube.com/watch?v=3xfyiWhtvZw&t=378s)
+1. 

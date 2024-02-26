@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-11-CSE151B.md",
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-01-11-CSE151B.md",
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-01-11-CSE151B.md",
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-01-11-CSE151B.md"
+                "file": "2023-12-22-geometric-deep-learning-survey.md"
               }
             }
           }
@@ -161,9 +161,11 @@
   },
   "active": "53abf9dc33a8bbc8",
   "lastOpenFiles": [
-    "2024-02-01-CSE251A.md",
-    "2023-11-27-thoughts_of_life.md",
+    "2024-01-16-parallel-computing.md",
+    "2024-01-13-code_experiment.md",
     "2023-12-22-geometric-deep-learning-survey.md",
-    "2024-01-11-CSE151B.md"
+    "2023-11-27-thoughts_of_life.md",
+    "2024-01-11-CSE151B.md",
+    "2024-02-01-CSE251A.md"
   ]
 }
