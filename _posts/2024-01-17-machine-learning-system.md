@@ -17,6 +17,8 @@ tags: [llm]     # TAG names should always be lowercase
 5. since reduce_scatter and all-gather are important manipulations in gpu, ring algorithm dominate in reducing the effects of bandwidth. Is there are any better way to improve the bandwidth speed? (Full Shared Data Parallel - FSDP)
 6. in-memory database. (ram cost goes down) Although the performance is not better,  1)data serialization is eliminated(difference data representations); 2)simpler implementations
 7. data warehouse olap big markets databricks and snowflakes 
+8. map-reduce: pagerank computation ????
+9. grock ai company for memory allocation
 
 ## the ml system important surveys
 

@@ -375,9 +375,12 @@ graph 即是data source 也是 model
 理解数据: data mining - 未来主流: 除了llm，多模态信息输入(text, video, relational data)
 
 research:
-调研->motivation
+调研->motivation(develop thinking for futures), 根据tech trends去预测一个方向的未来
+做有意义的研究
 
 create paper list to include paper titles - citation - main points
+
+
 
 
 

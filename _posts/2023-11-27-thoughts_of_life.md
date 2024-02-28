@@ -113,4 +113,6 @@ core: understand how the formula works in a high-level way, not details, but mea
 
 少年在这短短的一生值得被爱和救赎吗？少年也好想被爱一次，那名为爱的情感。
 
+请务必让我也爱上这个世界以及自己
+
 
