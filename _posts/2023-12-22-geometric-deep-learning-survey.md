@@ -383,7 +383,7 @@ create paper list to include paper titles - citation - main points
 survey learning sample: 
 https://arxiv.org/pdf/2312.15234.pdf
 
-survey title: towards efficient machine laerning for relational data: from algorithms to systems
+survey title: towards efficient machine learning for relational data: from algorithms to systems
 
 
 

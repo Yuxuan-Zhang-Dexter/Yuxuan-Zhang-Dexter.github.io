@@ -115,4 +115,6 @@ core: understand how the formula works in a high-level way, not details, but mea
 
 请务必让我也爱上这个世界以及自己
 
+我还不是个健全和完善的人，那么我还不值得被他人和这个世界所爱，我要首先学会爱上自己，这是我未来的课题。
+
 

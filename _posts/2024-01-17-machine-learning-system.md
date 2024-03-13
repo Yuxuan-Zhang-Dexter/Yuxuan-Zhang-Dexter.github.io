@@ -41,3 +41,22 @@ new one [medusa blog](https://www.together.ai/blog/medusa)
 how RAG works here?
 
 
+### Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems - Paper Summary
+
+
+A comprehensive overview of the latest advancements in LLM serving and inference. 
+
+#### 1.Background
+##### 1.1.Transformer-based LLM
+##### 1.2.GPUS and other accelerators
+##### 1.3. LLM Inference
+##### 1.4.Challenges
+
+#### 2.Taxonomy
+##### 2.1 Algorithmic Innovation
+##### 2.2 System Optimization
+#### 3. Software Frameworks
+#### 4. Benchmarks
+#### 5. Connection with Other Surveys
+#### 6. Future Direction
+#### 8. Conclusion

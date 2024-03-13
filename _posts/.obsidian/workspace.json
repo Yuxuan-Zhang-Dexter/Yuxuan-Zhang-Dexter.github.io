@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8cf7cb0b31df70f1",
+        "id": "cd888ea01f9ad8fa",
         "type": "tabs",
         "children": [
           {
-            "id": "4f9fecaa4228a544",
+            "id": "aff2365ffa9a59e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-17-machine-learning-system.md",
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-01-17-machine-learning-system.md",
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-01-17-machine-learning-system.md",
-                "linksCollapsed": false,
+                "file": "2023-12-22-geometric-deep-learning-survey.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,15 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-01-17-machine-learning-system.md"
+                "file": "2023-12-22-geometric-deep-learning-survey.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,10 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fecaa4228a544",
+  "active": "0809623312d7d4ae",
   "lastOpenFiles": [
-    "2023-12-22-geometric-deep-learning-survey.md",
     "2024-01-11-CSE151B.md",
+    "Mid2 Review.md",
+    "Untitled 1.md",
+    "2024-03-06.md",
+    "Untitled.canvas",
+    "Pasted image 20240306175101.png",
+    "8f9027dc76a85df9473a619ae7b141c.jpg",
+    "2023-12-22-geometric-deep-learning-survey.md",
+    "_imgs",
+    "image.png",
+    "Pasted image 20240306174732.png",
+    "2024-01-17-machine-learning-system.md",
     "2023-11-27-thoughts_of_life.md",
     "2024-01-16-parallel-computing.md",
     "2024-01-13-code_experiment.md",
