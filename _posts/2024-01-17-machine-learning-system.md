@@ -5,6 +5,8 @@ categories: [Machine Learning]
 tags: [llm]     # TAG names should always be lowercase
 ---
 
+[Zhang Hao's lab page](https://hao-ai-lab.github.io/)
+
 
 # General Approaches to ML System Research Area
 1. cultivate the critical thinking to evaluate the current tech trending.
