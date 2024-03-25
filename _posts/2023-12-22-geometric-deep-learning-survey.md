@@ -389,8 +389,18 @@ survey title: towards efficient machine learning for relational data: from algor
 
 [HKUDS](https://github.com/HKUDS/OpenGraph)
 
+[A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399)
 
+llm graph 无法处理大图
+大图 无法完全dense node diversity，无法给图一个清晰的定义所以很难学这种不确定的关系
 
+graph+rl 未来
+
+第一型原理
+
+看看历史吧
+
+目的：做benchmark，model的backbone，llm和gnn成分占比
 
 
 
