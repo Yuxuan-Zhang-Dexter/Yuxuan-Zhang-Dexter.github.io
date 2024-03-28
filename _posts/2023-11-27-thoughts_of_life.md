@@ -82,6 +82,14 @@ core: understand how the formula works in a high-level way, not details, but mea
 2. "Take responsibility for one's own life."
 3. "Adhere to one's own principles."
 
+### Interesting Insights about Life:
+
+[Marriage and Loving yourself](https://www.bilibili.com/video/BV1wQ4y1E7SW/?spm_id_from=333.999.0.0)
+
+[用随机梯度下降来优化人生](https://www.bilibili.com/read/cv13335461/?spm_id_from=333.999.0.0)
+
+[第一性原则去理解世界本质也是解决问题的通法](https://www.zhihu.com/question/21459243)
+
 送给未来的自己，如果你再次陷入低谷和迷失方向，请回来阅读你朋友们给你带来的领悟：
 你不在是孤独一人，你有着很好的朋友，这世界依然有着美好的事物。即便你一遍遍地倒下，请回想起生活美好的点点滴滴，然后再一遍遍站起来,为了你自己的自由意志，为了你要守护的人。人生在终结前还要继续，请你做出不要后悔的决定，然后坚定往前走，即便最后失败也比失败且后悔更让人尽兴。
 
