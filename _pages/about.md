@@ -18,7 +18,7 @@ My academic and professional experiences are rooted in combining cutting-edge te
 Here are some of the highlights of my work:
 - **Neuron Reconstruction**: Developed 3D segmentation pipelines, fine-tuned segmentation models, and created web visualization tools to revolutionize neuroscience workflows.
 - **LLM Optimization**: Designed data curation pipelines for a 6.9TB dataset and implemented distributed pre-training techniques to improve efficiency and scalability.
-- **Benchmarking AI**: Built an adversarial reasoning benchmark using a multi-agent bluffing game to evaluate and analyze LLM performance.
+- **Benchmarking AI**: Assisted building a reasoning benchmark Game Arena to evaluate and analyze LLM performance.
 
 ## My Vision
 
