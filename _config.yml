@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuxuan Zhang / Personal Website"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Yuxuan Zhang"
 description              : &description "Data Scientist and Developer with expertise in Machine Learning and Full-Stack Development"
