@@ -16,11 +16,12 @@ I am interested in AI Agents: 50% on building AI agents and 50% on agentic RL tr
 
 ## Highlights
 
-Large‑Model Benchmark: **LMGame‑Bench** [Website](https://lmgame.org)  [Leaderboard](https://huggingface.co/spaces/lmgame/lmgame_bench)  [GitHub](https://github.com/lmgame-org/GamingAgent)  [GitHub stars](https://img.shields.io/github/stars/lmgame-org/GamingAgent?style=social)
+Large‑Model Benchmark — **LMGame‑Bench**: [🌐 Website](https://lmgame.org) | [🏆 Leaderboard](https://huggingface.co/spaces/lmgame/lmgame_bench) | [📂 GitHub](https://github.com/lmgame-org/GamingAgent) ![GitHub stars](https://img.shields.io/github/stars/lmgame-org/GamingAgent?style=social)
 
-Large‑Model RL Training: **LMGame‑Train** [GitHub](https://github.com/mignonjia/lmgame_train_reorg)
+Large‑Model RL Training — **LMGame‑Train**: [📂 GitHub](https://github.com/mignonjia/lmgame_train_reorg) ![GitHub stars](https://img.shields.io/github/stars/mignonjia/lmgame_train_reorg?style=social)
 
-Large‑Model Gameplay Demo: **Ace Attorney AI Gameplay** [Watch on X (👁️ 950 k ❤️ 1.6 k)](https://x.com/haoailab/status/1912231343372812508)
+Large‑Model Gameplay Demo — **Ace Attorney AI Gameplay**:  [🎬 Watch on X (👁️ 950 k ❤️ 1.6 k)](https://x.com/haoailab/status/1912231343372812508)
+
 
 
 ## Publications  
