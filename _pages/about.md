@@ -26,11 +26,11 @@ Large‑Model Gameplay Demo — **Ace Attorney AI Gameplay**:  [🎬�
 
 ## Publications  
 
-1. **LMGame‑Bench: How Good are LLMs at Playing Games?**  
-   *NeurIPS ’25* — submitted  
+1. **LMGame‑Bench: How Good are LLMs at Playing Games?** [arXiv 2505.15146](https://arxiv.org/abs/2505.15146)  
+   *NeurIPS ’25* — submitted  
    Lanxiang Hu, Mingjia Huo, **Yuxuan Zhang**, Haoyang Yu, Eric P. Xing, Ion Stoica, Tajana Rosing, Haojian Jin, Hao Zhang  
 
-2. **General Modular Harness for LLM Agents in Multi‑Turn Gaming Environments**  
+2. **General Modular Harness for LLM Agents in Multi‑Turn Gaming Environments** [arXiv 2507.11633](https://arxiv.org/abs/2507.11633)  
    *ICML ’25 Workshop*  
    **Yuxuan Zhang**, Haoyang Yu, Lanxiang Hu, Haojian Jin, Hao Zhang
 
