@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,43 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<style>
+  /* Wraps the iframe and handles centering */
+  .pdf-wrapper{
+    display:flex;                 /* enable flexbox */
+    justify-content:center;       /* center horizontally */
+    align-items:center;           /* center vertically */
+    min-height:100vh;             /* fill viewport height */
+    padding:5vh 0;                /* equal 5 vh margin top & bottom */
+    box-sizing:border-box;
+  }
+
+  /* The iframe itself */
+  .pdf-wrapper iframe{
+    width:100%;                   /* full width of wrapper */
+    height:90vh;                  /* 90 % of viewport height (5 vh padding each side) */
+    border:none;
+  }
+
+  /* Slightly shorter on very small screens */
+  @media (max-width:600px){
+    .pdf-wrapper iframe{
+      height:85vh;
+    }
+  }
+</style>
+
+<div class="pdf-wrapper">
+  <iframe
+    src="{{ site.baseurl }}/files/Yuxuan_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+
+
+<!-- Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
@@ -45,9 +81,9 @@ Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -61,4 +97,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

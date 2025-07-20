@@ -9,6 +9,5 @@ last_updated: 2025-06-03         # revision date (v2)
 venue: "arXiv (submitted to NeurIPS ’25)"
 paperurl: "https://arxiv.org/pdf/2505.15146v2"
 doi: "10.48550/arXiv.2505.15146"
-codeurl: "https://github.com/lmgame-org/GamingAgent"   # optional; remove if not needed
-citation: "Lanxiang Hu, Mingjia Huo, Yuxuan Zhang, Haoyang Yu, Eric P. Xing, Ion Stoica, Tajana Rosing, Haojian Jin, Hao Zhang (2025). *lmgame‑Bench: How Good are LLMs at Playing Games?* arXiv preprint arXiv:2505.15146."
+codeurl: "https://github.com/lmgame-org/GamingAgent"   # optional; remove if not needed"
 ---
