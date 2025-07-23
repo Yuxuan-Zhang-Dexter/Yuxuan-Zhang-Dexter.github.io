@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm an M.S. student in Computer Science at UC San Diego (UCSD), fortunately advised by [Prof. Hao Zhang](https://cseweb.ucsd.edu/~haozhang/). 
+Hi, I'm an M.S. student in Computer Science at UC San Diego (UCSD), fortunately advised by [Prof. Hao Zhang](https://cseweb.ucsd.edu/~haozhang/) and [Prof. Haojian Jin](https://www.haojianj.in/). 
 
 Before that, I earned my B.S. in Data Science from UCSD’s Halıcıoğlu Data Science Institute (HDSI), graduating *summa cum laude* (top 2 %).
 
