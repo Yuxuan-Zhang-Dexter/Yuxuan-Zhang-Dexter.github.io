@@ -18,7 +18,7 @@ I am interested in AI Agents: 50% on building AI agents and 50% on agentic RL tr
 
 **Large‑Model Benchmark**: [LMGame‑Bench](https://github.com/lmgame-org/GamingAgent) ![GitHub stars](https://img.shields.io/github/stars/lmgame-org/GamingAgent?style=social) (2025)
 
-**Agentic Multi-Turn RL Training**: [LMGame‑Train](https://github.com/mignonjia/lmgame_train_reorg) (2025)
+**Agentic LLM Multi-Turn RL Training**: [GRL](https://github.com/lmgame-org/GRL/tree/main) (2025)
 
 **AI Gameplay Demo**: [Ace Attorney Gameplay](https://x.com/haoailab/status/1912231343372812508) ![X views](https://img.shields.io/badge/👁️ Views-950k-blue?style=social) (2025)
 
